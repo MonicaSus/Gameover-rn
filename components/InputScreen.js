@@ -25,6 +25,7 @@ const InputScreen = props => {
             return;
          }
          setEnterInput('');
+         console.log("I am console Merge Conflicts")
         setInputValue(ChoosenNumber);
         setIsConfirmed(true);
         Keyboard.dismiss();
